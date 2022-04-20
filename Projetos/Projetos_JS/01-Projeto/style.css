@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+#change-cat {
+  margin-top: 20px;
+  background-color: #505050;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  margin-right: 12px;
+  font-size: 12px;
+  font-family: 'Trebuchet MS';
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+#cat {
+  height: 600px;
+  width: 700px;
+  border-radius: 5px;
+}
